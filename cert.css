@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    /* background-color: #F5F5F5; */
+    background-color: #202023;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0.7vw;
+    font-size: 2.5vw;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./WhatsAppImagecopy.jpg);
+    background-size: cover;
+    height: 16vw;
+}
+
+.info {
+    background-color: #0000007d;
+    padding: 0.5vw;
+    border-radius: 0.25vw;
+    width: 65vw;
+}
+
+.details {
+    text-align: center;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    border-top: .25vw solid green;
+}
+
+.linkedin,
+.gmail {
+    width: 10vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.linkedin:hover {
+    scale: 1.05;
+}
+
+.gmail:hover {
+    scale: 1.05;
+}
+
+.logo {
+    width: 2vw;
+    margin: .3vw;
+}
+
+p {
+    font-size: 1.1vw;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #4f3d3d;
+    padding: 1vw;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container h3 {
+    background-color: silver;
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.box {
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+    border: .5vw solid white;
+}
+
+@media only screen and (max-width: 920px) {
+
+    /* p {
+        font-size: 1.5vw;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    a {
+        width: 2vw;
+    } */
+
+    .container {
+        background: none;
+        width: 100%;
+    }
+
+    /* h3 {
+        font-size: 2vw;
+    } */
+}
+
+@media only screen and (max-width: 400px) {
+
+    .box {
+        width: 100%;
+    }
+
+    .header {
+        padding: 1.5vw;
+    }
+
+    .linkedin,
+    .gmail {
+        height: 2.5vw;
+        width: fit-content;
+    }
+
+    .linkedin-para {
+        display: none;
+    }
+
+    a {
+
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1vw;
+    }
+}
